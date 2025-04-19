@@ -1,0 +1,56 @@
+
+
+\include{head}
+
+\begin{center}
+
+
+\end{center}
+
+
+\begin{center}
+	Machine Learning \\
+	\textbf{Apprentissage Supervisé }
+\end{center}
+
+
+
+\section*{Énoncé}
+Considérons le Dataset suivant représentant les prix des maisons en fonction de la surface (en mètres carrés) et le nombre de chambres :
+
+\begin{center}
+	\begin{tabular}{|c|c|c|}
+		\hline
+		\textbf{Surface (m\textsuperscript{2})} & \textbf{Nombre de chambres} & \textbf{Prix (USD)} \\
+		\hline
+		50 & 2 & 150,000 \\
+		60 & 3 & 180,000 \\
+		70 & 4 & 200,000 \\
+		80 & 2 & 220,000 \\
+		100 & 3 & 300,000 \\
+		110 & 1 & 310,000 \\
+		120 & 2 & 330,000 \\
+		130 & 5 & 360,000 \\
+		140 & 6 & 390,000 \\
+		150 & 5 & 400,000 \\
+		160 & 6 & 430,000 \\
+		\hline
+	\end{tabular}
+\end{center}
+
+\section*{Travail à faire}
+
+\begin{enumerate}
+
+
+\item  Effectuer une analyse EDA avec Python.
+\item  Normaliser les données si nécessaire.
+\item Diviser en ensembles d'entraînement et de test (par exemple, 80\% / 20\%).
+\item Entraîner un modèle de régression linéaire.
+\begin{enumerate}
+\item Évaluer à l'aide de métriques comme le Mean Squared Error (MSE).
+\item Prédire le prix d'une maison de 90 m\textsuperscript{2} qui se compose de 4 chambres.
+\end{enumerate}
+\end{enumerate}
+\end{document}
+
