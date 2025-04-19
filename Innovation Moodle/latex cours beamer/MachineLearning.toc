@@ -1,0 +1,6 @@
+\babel@toc {french}{}\relax 
+\beamer@sectionintoc {1}{Introduction à l’Apprentissage Supervisé}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Définition de l’apprentissage supervisé}{4}{0}{1}
+\beamer@subsectionintoc {1}{2}{Types d’Apprentissage Supervisé}{7}{0}{1}
+\beamer@subsectionintoc {1}{3}{Algorithmes Courants}{11}{0}{1}
+\beamer@subsectionintoc {1}{4}{Étapes de Fonctionnement}{12}{0}{1}

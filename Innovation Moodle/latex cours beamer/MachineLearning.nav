@@ -1,0 +1,34 @@
+\headcommand {\slideentry {0}{0}{1}{1/1}{}{0}}
+\headcommand {\beamer@framepages {1}{1}}
+\headcommand {\slideentry {0}{0}{2}{2/2}{}{0}}
+\headcommand {\beamer@framepages {2}{2}}
+\headcommand {\beamer@sectionpages {1}{2}}
+\headcommand {\beamer@subsectionpages {1}{2}}
+\headcommand {\sectionentry {1}{Introduction à l’Apprentissage Supervisé}{3}{Introduction à l’Apprentissage Supervisé}{0}}
+\headcommand {\slideentry {1}{0}{1}{3/3}{}{0}}
+\headcommand {\beamer@framepages {3}{3}}
+\headcommand {\beamer@subsectionpages {3}{3}}
+\headcommand {\beamer@subsectionentry {0}{1}{1}{4}{Définition de l’apprentissage supervisé}}
+\headcommand {\slideentry {1}{1}{1}{4/5}{Définition de l’apprentissage supervisé}{0}}
+\headcommand {\beamer@framepages {4}{5}}
+\headcommand {\slideentry {1}{1}{2}{6/6}{Définition de l’apprentissage supervisé}{0}}
+\headcommand {\beamer@framepages {6}{6}}
+\headcommand {\beamer@subsectionpages {4}{6}}
+\headcommand {\beamer@subsectionentry {0}{1}{2}{7}{Types d’Apprentissage Supervisé}}
+\headcommand {\slideentry {1}{2}{1}{7/9}{Types d’Apprentissage Supervisé}{0}}
+\headcommand {\beamer@framepages {7}{9}}
+\headcommand {\slideentry {1}{2}{2}{10/10}{Types d’Apprentissage Supervisé}{0}}
+\headcommand {\beamer@framepages {10}{10}}
+\headcommand {\beamer@subsectionpages {7}{10}}
+\headcommand {\beamer@subsectionentry {0}{1}{3}{11}{Algorithmes Courants}}
+\headcommand {\slideentry {1}{3}{1}{11/11}{Algorithmes Courants}{0}}
+\headcommand {\beamer@framepages {11}{11}}
+\headcommand {\beamer@subsectionpages {11}{11}}
+\headcommand {\beamer@subsectionentry {0}{1}{4}{12}{Étapes de Fonctionnement}}
+\headcommand {\slideentry {1}{4}{1}{12/16}{Étapes de Fonctionnement}{0}}
+\headcommand {\beamer@framepages {12}{16}}
+\headcommand {\beamer@partpages {1}{16}}
+\headcommand {\beamer@subsectionpages {12}{16}}
+\headcommand {\beamer@sectionpages {3}{16}}
+\headcommand {\beamer@documentpages {16}}
+\headcommand {\gdef \inserttotalframenumber {9}}
