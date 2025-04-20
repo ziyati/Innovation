@@ -1,0 +1,178 @@
+
+% LaTeX Beamer Presentation - Gestion de Projet
+% Template: LaTeXTemplates.com (v2.0)
+% Author: Abdelali EL BOUAZAOUI
+
+\documentclass[11pt]{beamer}
+
+\usetheme{Madrid}
+\usecolortheme{dolphin}
+\usefonttheme{default}
+\useinnertheme{circles}
+\setbeamercovered{transparent} % Pour les animations de transition
+
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{palatino}
+\usepackage[default]{opensans}
+
+\graphicspath{{Images/}{./}}
+
+\title[Cours Gestion de Projet]{Cours : Gestion de projet}
+\subtitle{TP pour le cours Innovation pédagogique}
+\author[Abdelali EL BOUAZAOUI]{Abdelali EL BOUAZAOUI}
+\institute[UC]{Université Hassan II \\ \smallskip \textit{a.elbouazaoui@gmail.com}}
+\date[\today]{Doctorat en science de l'ingénieur \\ \today}
+
+\logo{\includegraphics[height=0.9cm]{logo_hassan2.png}} % logo à placer dans le dossier Images
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}
+  \frametitle{Sommaire du cours}
+  \tableofcontents
+\end{frame}
+
+\section*{Objectifs d'apprentissage}
+\begin{frame}
+  \frametitle{Objectifs d'apprentissage}
+  \pause
+  \begin{itemize}
+    \item Démarrer et valider un projet avec une charte solide \pause
+    \item Maîtriser les outils de planification (WBS, Gantt, PERT) \pause
+    \item Appliquer la triple contrainte pour optimiser un projet \pause
+    \item Identifier et gérer les risques pour éviter les dérives \pause
+    \item Capitaliser les apprentissages à la clôture \pause
+    \item Impliquer efficacement les parties prenantes
+  \end{itemize}
+\end{frame}
+
+% ------------------- Contenu par chapitres ------------------------
+
+\section{Chapitre 1 : Introduction à la Gestion de Projet}
+\begin{frame}{Fondamentaux de la gestion de projet}
+  \pause
+  \begin{itemize}
+    \item Qu'est-ce qu'un projet ? \pause
+    \item Différences entre projet et opérations courantes \pause
+    \item Cycle de vie : initiation, planification, exécution, clôture \pause
+    \item Compétences clés du chef de projet
+  \end{itemize}
+  \begin{figure}\centering
+    \includegraphics[width=0.75\linewidth]{Images/project_lifecycle.png}
+    \caption{Cycle de vie d'un projet}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{Étude de cas}
+  \pause
+  Pourquoi certains projets échouent dès le départ ? \pause
+  \begin{itemize}
+    \item Manque de clarté des objectifs \pause
+    \item Ressources mal allouées \pause
+    \item Communication insuffisante \pause
+    \item Absence d'alignement stratégique
+  \end{itemize}
+\end{frame}
+
+\section{Chapitre 2 : Cadrage et Validation}
+\begin{frame}{Charte et faisabilité}
+  \pause
+  \begin{itemize}
+    \item Identification des besoins \pause
+    \item Analyse de faisabilité \pause
+    \item Élaboration de la charte : objectifs, parties prenantes, contraintes \pause
+    \item Validation par le sponsor
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Atelier pratique}
+  \pause
+  Rédaction d’une charte pour un projet réel.\pause
+  \begin{figure}\centering
+    \includegraphics[width=0.6\linewidth]{Images/project_charter.png}
+    \caption{Exemple de charte de projet}
+  \end{figure}
+\end{frame}
+
+\section{Chapitre 3 : Planification – Périmètre et Livrables}
+\begin{frame}{Définir les livrables du projet}
+  \pause
+  \begin{itemize}
+    \item Recueil des besoins : interview, brainstorming, MoSCoW \pause
+    \item Structuration des livrables avec la WBS \pause
+    \item Gestion des exigences et des changements
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Exercice pratique}
+  \pause
+  Créer un WBS pour un projet digital.
+  \begin{figure}\centering
+    \includegraphics[width=0.75\linewidth]{Images/wbs_example.png}
+    \caption{Exemple de WBS}
+  \end{figure}
+\end{frame}
+
+\section{Chapitre 4 : La Triple Contrainte}
+\begin{frame}{Coût, Délai, Qualité}
+  \pause
+  \begin{itemize}
+    \item Comprendre l’équilibre coût-délai-qualité \pause
+    \item Estimation des coûts : analogique, paramétrique, bottom-up \pause
+    \item Planification : diagrammes de Gantt, PERT, CPM
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Simulation}
+  \pause
+  Optimiser un projet sous contraintes.\pause
+  \begin{figure}\centering
+    \includegraphics[width=0.7\linewidth]{Images/triple_contrainte.png}
+    \caption{La triple contrainte en gestion de projet}
+  \end{figure}
+\end{frame}
+
+\section{Chapitre 5 : Ressources et Parties Prenantes}
+\begin{frame}{Acteurs et ressources projet}
+  \pause
+  \begin{itemize}
+    \item Identification des parties prenantes : matrice pouvoir/intérêt \pause
+    \item Gestion des rôles et des conflits \pause
+    \item Communication et engagement des équipes
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Étude de cas}
+  \pause
+  Gérer les attentes divergentes dans un projet.\pause
+  \begin{figure}\centering
+    \includegraphics[width=0.65\linewidth]{Images/stakeholder_matrix.png}
+    \caption{Matrice parties prenantes}
+  \end{figure}
+\end{frame}
+
+\section*{Références}
+\begin{frame}{Ouvrages recommandés}
+  \pause
+  \begin{itemize}
+    \item \textit{Le Guide PMBOK} – Project Management Institute (PMI) \pause
+    \item \textit{Gestion de projet pour les Nuls} – Stanley E. Portny \pause
+    \item \textit{Scrum} – Jeff Sutherland
+  \end{itemize}
+\end{frame}
+
+\begin{frame}[plain]
+  \begin{center}
+    {\Huge Merci de votre attention !}\\[1em]
+    {\LARGE Questions ?}
+  \end{center}
+\end{frame}
+
+\end{document}
